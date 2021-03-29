@@ -11,7 +11,7 @@ echo '<ul>' >> $OUTFILE
 
 for file in `ls`
 do
-    echo "<li><a href=\"$file\">$file</a></li>" >> $OUTFILE
+    echo "<li><a href=\"/video/$file\">$file</a></li>" >> $OUTFILE
 done
 echo '</ul>' >> $OUTFILE
 echo '</body></html>' >> $OUTFILE
